@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "type": "item",
+      "title": "Introduction",
+      "uri": "docs/introduction.md"
+    },
+    {
+      "type": "item",
+      "title": "UI Overview",
+      "uri": "docs/ui-overview.md"
+    },
+    {
+      "type": "divider",
+      "title": "markdown (custom TOC)"
+    },
+    {
+      "type": "item",
+      "title": "Markdown Basics",
+      "uri": "docs/markdown/basic-syntax.md"
+    },
+    {
+      "type": "item",
+      "title": "Stoplight Flavored Markdown (SMD)",
+      "uri": "docs/markdown/stoplight-flavored-markdown.md"
+    },
+    {
+      "type": "divider",
+      "title": "APIS (custom TOC)"
+    },
+    {
+      "type": "item",
+      "title": "openapi.v1.yaml",
+      "uri": "reference/petstore/openapi.v1.yaml"
+    },
+    {
+      "type": "item",
+      "title": "openapi.v1.json",
+      "uri": "reference/todos/openapi.v1.json"
+    },
+    {
+      "type": "divider",
+      "title": "Schemas"
+    },
+    {
+      "type": "item",
+      "title": "Category",
+      "uri": "reference/petstore/models/category.v1.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Error",
+      "uri": "reference/common/models/error.v1.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Pet",
+      "uri": "reference/petstore/models/pet.v1.yaml"
+    },
+    {
+      "type": "item",
+      "title": "Todo Full",
+      "uri": "reference/todos/models/todo-full.v1.json"
+    },
+    {
+      "type": "item",
+      "title": "Todo Partial",
+      "uri": "reference/todos/models/todo-partial.v1.json"
+    },
+    {
+      "type": "item",
+      "title": "User",
+      "uri": "reference/todos/models/user.v1.json"
+    }
+  ]
+}
