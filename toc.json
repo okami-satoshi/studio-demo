@@ -30,12 +30,12 @@
     },
     {
       "type": "item",
-      "title": "openapi.v1.yaml",
+      "title": "Petstore API",
       "uri": "reference/petstore/openapi.v1.yaml"
     },
     {
       "type": "item",
-      "title": "openapi.v1.json",
+      "title": "Todos API",
       "uri": "reference/todos/openapi.v1.json"
     },
     {
