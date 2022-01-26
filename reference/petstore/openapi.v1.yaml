@@ -8,6 +8,20 @@ servers:
   - url: 'http://petstore.swagger.io/v1'
 paths:
   /pets:
+    post:
+      summary: Create a pet
+      operationId: createPets
+      tags:
+        - pets
+      responses:
+        '201':
+          description: Null response
+        default:
+          description: unexpected error
+          content:
+            application/json:
+              schema:
+                $ref: ../common/models/error.v1.yaml    
     get:
       summary: List all pets
       operationId: listPets
@@ -42,21 +56,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../common/models/error.v1.yaml
-    post:
-      summary: Create a pet
-      operationId: createPets
-      tags:
-        - pets
-      responses:
-        '201':
-          description: Null response
-        default:
-          description: unexpected error
-          content:
-            application/json:
-              schema:
-                $ref: ../common/models/error.v1.yaml
+                $ref: ../common/models/error.v1.yaml    
   '/pets/{petId}':
     get:
       summary: Info for a specific pet
