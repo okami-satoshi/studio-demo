@@ -3,11 +3,14 @@ type: object
 description: A standard error object.
 x-tags:
   - Common
+  - test
 properties:
+  message:
+    type:
+      - string
+      - number
   code:
     type: string
     description: A code.
-  message:
-    type: string
 required:
   - code
